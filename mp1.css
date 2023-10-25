@@ -1,0 +1,39 @@
+#navbar1 {
+  backdrop-filter: blur(30px);
+  font-weight: bold;
+  text-shadow: 0 0 2px black;
+}
+#treeicon {
+  width: 35px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+.carousel-heading {
+  font-family: "Bebas Neue", sans-serif;
+}
+.featurette {
+  background-image: url("./featurrete_background.png");
+}
+.featurette-divider {
+  margin: 5rem 0;
+}
+.featurette-heading {
+  font-family: "Bebas Neue", sans-serif;
+}
+.featurette-licontent {
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+}
+#nav2 {
+  font-size: 15px;
+}
+.review-heading {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 50px;
+}
+.fw-normal {
+  font-family: "Bebas Neue", sans-serif;
+}
+.review-pharagraph {
+  font-family: "Cabin", sans-serif;
+}

@@ -12,13 +12,29 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./mp1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
     <title>Tuka Marine Park</title>
   </head>
   <body>
     <nav
-      class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
+      id="navbar1"
+      class="navbar navbar-expand-lg navbar-dark text-white fixed-top"
       aria-label="Offcanvas navbar large">
       <div class="container-fluid">
+        <img id="treeicon" src="./island.png" alt="" />
         <a class="navbar-brand" href="#">TUKA MARINE PARK</a>
         <button
           class="navbar-toggler"
@@ -43,10 +59,12 @@
               data-bs-dismiss="offcanvas"
               aria-label="Close"></button>
           </div>
-          <div class="offcanvas-body">
+          <div class="" id="nav2" style="height: 50px">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item dropdown">
                 <a
+                  id="about"
+                  style="color: aliceblue"
                   class="nav-link dropdown-toggle"
                   href="#"
                   role="button"
@@ -55,8 +73,12 @@
                   About
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">History</a></li>
-                  <li><a class="dropdown-item" href="#">Location</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">History</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Location</a>
+                  </li>
                   <li>
                     <hr class="dropdown-divider" />
                   </li>
@@ -66,10 +88,17 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Contact</a>
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="#"
+                  style="color: aliceblue"
+                  >Contact</a
+                >
               </li>
               <li class="nav-item dropdown">
                 <a
+                  style="color: aliceblue"
                   class="nav-link dropdown-toggle"
                   href="#"
                   role="button"
@@ -78,8 +107,12 @@
                   Gallery
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Landscape</a></li>
-                  <li><a class="dropdown-item" href="#">Cottages</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Landscape</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Cottages</a>
+                  </li>
                   <li>
                     <hr class="dropdown-divider" />
                   </li>
@@ -118,80 +151,63 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <svg
-            class="bd-placeholder-img"
-            width="100%"
-            height="70vh"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false">
-            <rect
-              width="100%"
-              height="100%"
-              fill="var(--bs-secondary-color)"></rect>
-          </svg>
+          <img
+            src="./Carousel_P1.jpg"
+            alt=""
+            style="width: 100%; height: 100vh" />
           <div class="container">
             <div class="carousel-caption text-start">
-              <h1>Example headline.</h1>
+              <h1 class="carousel-heading">
+                Explore the wonders of the underwater world
+              </h1>
               <p class="opacity-75">
-                Some representative placeholder content for the first slide of
-                the carousel.
+                Tuka marine park is a marine park where you can see and learn
+                about all kinds of marine life, from colorful fish to majestic
+                sea turtles.
               </p>
               <p>
-                <a class="btn btn-lg btn-primary" href="#">DISCOVER</a>
+                <a class="btn btn-lg btn-outline-primary" href="#">DISCOVER</a>
               </p>
             </div>
           </div>
         </div>
         <div class="carousel-item">
-          <svg
-            class="bd-placeholder-img"
-            width="100%"
-            height="70vh"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false">
-            <rect
-              width="100%"
-              height="100%"
-              fill="var(--bs-secondary-color)"></rect>
-          </svg>
+          <img
+            src="./Carousel_P3.jpg"
+            alt=""
+            style="width: 100%; height: 100vh" />
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
+              <h1 class="carousel-heading">
+                Get up close and personal with marine life
+              </h1>
               <p>
-                Some representative placeholder content for the second slide of
-                the carousel.
+                ou can get up close and personal with marine life in a safe and
+                educational setting
               </p>
-              <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+              <p>
+                <a class="btn btn-lg btn-outline-primary" href="#"
+                  >Learn more</a
+                >
+              </p>
             </div>
           </div>
         </div>
         <div class="carousel-item">
-          <svg
-            class="bd-placeholder-img"
-            width="100%"
-            height="70vh"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false">
-            <rect
-              width="100%"
-              height="100%"
-              fill="var(--bs-secondary-color)"></rect>
-          </svg>
+          <img
+            src="./Carousel_P2.jpg"
+            alt=""
+            style="width: 100%; height: 100vh" />
           <div class="container">
             <div class="carousel-caption text-end">
-              <h1>One more for good measure.</h1>
+              <h1 class="carousel-heading">
+                Make a difference for marine life
+              </h1>
+              <p>Tuka marine park is committed to conservation and education</p>
               <p>
-                Some representative placeholder content for the third slide of
-                this carousel.
-              </p>
-              <p>
-                <a class="btn btn-lg btn-primary" href="#">Browse gallery</a>
+                <a class="btn btn-lg btn-outline-primary" href="#"
+                  >Browse gallery</a
+                >
               </p>
             </div>
           </div>
@@ -214,247 +230,182 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <!--CARDS-->
-    <div class="container px-4 py-5" id="custom-cards">
-      <h2 class="pb-2 border-bottom text-center">ACTIVITIES</h2>
 
-      <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-4 py-5">
-        <div class="col">
-          <div
-            class="card card-cover h-70 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-            style="background-image: url('unsplash-photo-1.jpg')">
-            <div
-              class="d-flex flex-column h-70 p-5 pb-3 text-white text-shadow-1">
-              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                Short title, long jacket
-              </h3>
-              <ul class="d-flex list-unstyled mt-auto">
-                <li class="me-auto">
-                  <img
-                    src="https://github.com/twbs.png"
-                    alt="Bootstrap"
-                    width="32"
-                    height="32"
-                    class="rounded-circle border border-white" />
-                </li>
-                <li class="d-flex align-items-center me-3">
-                  <svg class="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#geo-fill"></use>
-                  </svg>
-                  <small>Earth</small>
-                </li>
-                <li class="d-flex align-items-center">
-                  <svg class="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#calendar3"></use>
-                  </svg>
-                  <small>3d</small>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div
-            class="card card-cover h-70 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-            style="background-image: url('unsplash-photo-2.jpg')">
-            <div
-              class="d-flex flex-column h-70 p-5 pb-3 text-white text-shadow-1">
-              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                Much longer title
-              </h3>
-              <ul class="d-flex list-unstyled mt-auto">
-                <li class="me-auto">
-                  <img
-                    src="https://github.com/twbs.png"
-                    alt="Bootstrap"
-                    width="32"
-                    height="32"
-                    class="rounded-circle border border-white" />
-                </li>
-                <li class="d-flex align-items-center me-3">
-                  <svg class="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#geo-fill"></use>
-                  </svg>
-                  <small>Pakistan</small>
-                </li>
-                <li class="d-flex align-items-center">
-                  <svg class="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#calendar3"></use>
-                  </svg>
-                  <small>4d</small>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div
-            class="card card-cover h-70 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-            style="background-image: url('unsplash-photo-2.jpg')">
-            <div
-              class="d-flex flex-column h-70 p-5 pb-3 text-white text-shadow-1">
-              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                Much longer title
-              </h3>
-              <ul class="d-flex list-unstyled mt-auto">
-                <li class="me-auto">
-                  <img
-                    src="https://github.com/twbs.png"
-                    alt="Bootstrap"
-                    width="32"
-                    height="32"
-                    class="rounded-circle border border-white" />
-                </li>
-                <li class="d-flex align-items-center me-3">
-                  <svg class="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#geo-fill"></use>
-                  </svg>
-                  <small>Pakistan</small>
-                </li>
-                <li class="d-flex align-items-center">
-                  <svg class="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#calendar3"></use>
-                  </svg>
-                  <small>4d</small>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div
-            class="card card-cover h-70 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-            style="background-image: url('unsplash-photo-3.jpg')">
-            <div class="d-flex flex-column h-70 p-5 pb-3 text-shadow-1">
-              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                Another longer title
-              </h3>
-              <ul class="d-flex list-unstyled mt-auto">
-                <li class="me-auto">
-                  <img
-                    src="https://github.com/twbs.png"
-                    alt="Bootstrap"
-                    width="32"
-                    height="32"
-                    class="rounded-circle border border-white" />
-                </li>
-                <li class="d-flex align-items-center me-3">
-                  <svg class="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#geo-fill"></use>
-                  </svg>
-                  <small>California</small>
-                </li>
-                <li class="d-flex align-items-center">
-                  <svg class="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#calendar3"></use>
-                  </svg>
-                  <small>5d</small>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+    <!--featurette-->
+    <hr class="featurette-divider" />
+    <div class="row featurette">
+      <div class="col-md-7" id="hf">
+        <h2 class="featurette-heading fw-normal lh-1" style="font-size: 3rem">
+          Preserving Marine Life:
+          <span class="text-body-secondary">A Vital Task for Our Future</span>
+        </h2>
+        <p class="featurette-licontent">
+          Marine life is essential to the health of our planet. The oceans
+          provide us with food, oxygen, and other vital resources. They also
+          play a critical role in regulating the climate and supporting
+          biodiversity. However, marine life is facing a number of threats,
+          including climate change, overfishing, and pollution. These threats
+          are putting many marine species at risk of extinction. Preserving
+          marine life is a vital task for our future. We need to protect our
+          oceans from these threats and ensure that marine life can thrive.
+        </p>
+      </div>
+      <div class="col-md-5">
+        <img
+          src="./featurrete1.jpg"
+          alt="tutle in sea"
+          style="height: 500px; width: 500px" />
       </div>
     </div>
+    <hr class="featurette-divider" />
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1" style="font-size: 3rem">
+          What We Can Do to Help Preserve Marine Life
+        </h2>
+        <ul class="featurette-licontent">
+          <li>
+            Reduce our consumption of seafood. Overfishing is a major threat to
+            marine life. We can help reduce overfishing by eating less seafood
+            and choosing sustainably caught seafood.
+          </li>
+          <li>
+            Reduce our use of plastics. Plastic pollution is a major problem in
+            the oceans. We can help reduce plastic pollution by reducing our use
+            of plastics and disposing of plastic waste properly.
+          </li>
+          <li>
+            Support marine conservation organizations. There are a number of
+            organizations that are working to protect marine life. We can
+            support these organizations by donating money, volunteering our
+            time, or simply spreading the word about their work.
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img
+          src="./featurrete2.jpg"
+          alt="nemo"
+          style="height: 500px; width: 500px; float: right" />
+      </div>
+    </div>
+    <hr class="featurette-divider" />
+    <div class="row featurette">
+      <div class="col-md-7" id="hf">
+        <h2 class="featurette-heading fw-normal lh-1" style="font-size: 3rem">
+          The Benefits of Preserving Marine Life.
+          <span class="text-body-secondary"
+            >There are many benefits to preserving marine life. Here are a few
+            examples:</span
+          >
+        </h2>
+        <ul class="featurette-licontent">
+          <li>
+            Healthy oceans provide us with food, oxygen, and other vital
+            resources.
+          </li>
+          <li>
+            Marine ecosystems play a critical role in regulating the climate and
+            supporting biodiversity.
+          </li>
+          <li>
+            Marine life is a source of recreation and enjoyment for people all
+            over the world.
+          </li>
+          <li>
+            Protecting marine life can help to create jobs and boost the
+            economy.
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-5">
+        <img
+          src="./featurrete3.jpg"
+          alt="corals"
+          style="height: 500px; width: 500px" />
+      </div>
+    </div>
+    <hr class="featurette-divider" />
     <!--review-->
+    <h2 class="pb-2 text-center review-heading">VISITORS REVIEW</h2>
     <div class="container">
       <div class="row text-center">
         <div class="col-lg-4">
-          <svg
+          <img
+            src="./review1.jpg"
+            alt=""
             class="bd-placeholder-img rounded-circle"
             width="140"
-            height="140"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false">
-            <title>Placeholder</title>
-            <rect
-              width="100%"
-              height="100%"
-              fill="var(--bs-secondary-color)"></rect>
-          </svg>
-          <h2 class="fw-normal">Heading</h2>
-          <p>
-            Some representative placeholder content for the three columns of
-            text below the carousel. This is the first column.
+            height="140" />
+          <h2 class="fw-normal">Mike Russ</h2>
+          <p class="review-pharagraph">
+            We visited the marine park with our two young children and had a
+            fantastic time. The park is well-maintained and the animals are
+            clearly well-cared for. We enjoyed the dolphin show, the sea lion
+            show, and the penguin feeding. We also had the opportunity to swim
+            with the dolphins, which was an unforgettable experience. The park
+            is a bit pricey, but it is definitely worth the money.
           </p>
         </div>
-        <!-- /.col-lg-4 -->
+        <!-- /.col-lg-2 -->
         <div class="col-lg-4">
-          <svg
+          <img
+            src="./review2.jpg"
+            alt=""
             class="bd-placeholder-img rounded-circle"
             width="140"
-            height="140"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false">
-            <title>Placeholder</title>
-            <rect
-              width="100%"
-              height="100%"
-              fill="var(--bs-secondary-color)"></rect>
-          </svg>
-          <h2 class="fw-normal">Heading</h2>
-          <p>
-            Another exciting bit of representative placeholder content. This
-            time, we've moved on to the second column.
+            height="140" />
+          <h2 class="fw-normal">Amber Shake</h2>
+          <p class="review-pharagraph">
+            The marine park is a great place to learn about marine life and to
+            see a variety of animals up close. The park is clean and
+            well-organized, and the staff is friendly and knowledgeable. We
+            enjoyed the educational exhibits, the animal shows, and the
+            opportunity to feed the penguins. The park is a bit crowded, but it
+            is still a great place to visit.
           </p>
         </div>
-        <!-- /.col-lg-4 -->
+        <!-- /.col-lg-3 -->
         <div class="col-lg-4">
-          <svg
+          <img
+            src="./review3.jpg"
+            alt=""
             class="bd-placeholder-img rounded-circle"
             width="140"
-            height="140"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false">
-            <title>Placeholder</title>
-            <rect
-              width="100%"
-              height="100%"
-              fill="var(--bs-secondary-color)"></rect>
-          </svg>
-          <h2 class="fw-normal">Heading</h2>
-          <p>
-            And lastly this, the third column of representative placeholder
-            content.
+            height="140" />
+          <h2 class="fw-normal">Elijah Hays</h2>
+          <p class="review-pharagraph">
+            The marine park is a great place to learn about marine life and
+            conservation. The park has a number of educational exhibits and
+            programs, and the staff is passionate about protecting marine
+            ecosystems. However, the park is a bit small and the animal shows
+            are somewhat repetitive. Overall, the park is worth a visit, but it
+            is not as impressive as some of the other marine parks I have
+            visited.
           </p>
         </div>
-        <!-- /.col-lg-4 -->
       </div>
-      <h2 class="pb-2 border-bottom text-center">VISITORS REVIEW</h2>
     </div>
     <!--footer-->
     <div class="container">
-      <footer class="py-3 my-4">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary">Features</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary">About</a>
-          </li>
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <img src="./island.png" alt="" class="bi" width="30" height="24" />
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary"
+            >© Jasper Senit 2023 TUKA</span
+          >
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li><i class="bi bi-facebook pe-3" style="font-size: 30px"></i></li>
+          <li><i class="bi bi-twitter-x pe-3" style="font-size: 30px"></i></li>
+          <li><i class="bi bi-instagram" style="font-size: 30px"></i></li>
         </ul>
-        <p class="text-center text-body-secondary">© 2023 Company, Inc</p>
       </footer>
     </div>
   </body>
