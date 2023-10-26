@@ -2,6 +2,14 @@
   backdrop-filter: blur(30px);
   font-weight: bold;
   text-shadow: 0 0 2px black;
+  width: 100%;
+}
+#nav2 {
+  font-size: 15px;
+  height: 50px;
+}
+.nav-link:hover {
+  transform: scale(1.1);
 }
 #treeicon {
   width: 35px;
@@ -14,18 +22,41 @@
 .featurette {
   background-image: url("./featurrete_background.png");
 }
+.Carousel-img {
+  height: 100%;
+  width: 100%;
+}
+.featurette-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.featurette2-img {
+  height: 100%;
+  width: 100%;
+  float: right;
+  border-radius: 10px;
+}
+.image {
+  transition-property: box-shadow, transform;
+  transition-duration: 350ms;
+  transition-timing-function: ease;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.24);
+}
+.image:is(:hover, :focus) {
+  box-shadow: 0px 16px 20px 1px rgba(0, 0, 0, 0.2);
+  transform: translateY(-8px);
+}
 .featurette-divider {
   margin: 5rem 0;
 }
 .featurette-heading {
   font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
 }
 .featurette-licontent {
   font-family: "Cabin", sans-serif;
   font-size: 20px;
-}
-#nav2 {
-  font-size: 15px;
 }
 .review-heading {
   font-family: "Bebas Neue", sans-serif;
@@ -36,4 +67,7 @@
 }
 .review-pharagraph {
   font-family: "Cabin", sans-serif;
+}
+#about:hover {
+  color: black;
 }

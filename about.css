@@ -1,0 +1,16 @@
+body {
+  background-image: url("./about_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#navbar1 {
+  backdrop-filter: blur(30px);
+  font-weight: bold;
+  text-shadow: 0 0 2px black;
+}
+#treeicon {
+  width: 35px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
