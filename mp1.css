@@ -21,6 +21,14 @@
 }
 .carousel-heading {
   font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
+}
+.carousel-subhead {
+  font-size: 25px;
+}
+.carousel-heading,
+.carousel-subhead {
+  text-shadow: 0 0 2px black;
 }
 .featurette {
   background-image: url("./featurrete_background.png");
