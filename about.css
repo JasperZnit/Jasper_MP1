@@ -1,16 +1,34 @@
-body {
-  background-image: url("./about_background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
+video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
-#navbar1 {
+.about-anchor {
+  text-decoration: none;
+}
+.anchor-link {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Bebas Neue", sans-serif;
+  color: rgb(208, 239, 239);
+}
+.history,
+.location {
+  border: solid rgb(67, 188, 164);
   backdrop-filter: blur(30px);
-  font-weight: bold;
-  text-shadow: 0 0 2px black;
+  border-radius: 30px;
 }
-#treeicon {
-  width: 35px;
-  margin-left: 5px;
-  margin-right: 10px;
+.history,
+.location {
+  transition-duration: 200ms;
+}
+.history:is(:hover, :focus) {
+  transform: scale(0.8);
+}
+.location:is(:hover, :focus) {
+  transform: scale(0.8);
 }

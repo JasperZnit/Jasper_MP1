@@ -16,6 +16,9 @@
   margin-left: 5px;
   margin-right: 10px;
 }
+#myCarousel {
+  height: 100vh;
+}
 .carousel-heading {
   font-family: "Bebas Neue", sans-serif;
 }
@@ -23,7 +26,7 @@
   background-image: url("./featurrete_background.png");
 }
 .Carousel-img {
-  height: 100%;
+  height: 100vh;
   width: 100%;
 }
 .featurette-img {
