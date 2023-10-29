@@ -28,6 +28,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="./about.css" />
+    <link rel="stylesheet" href="./location.css" />
     <title>Document</title>
   </head>
   <body>
@@ -80,7 +81,7 @@
                     <a class="dropdown-item" href="./history.html">History</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="./location.css">Location</a>
+                    <a class="dropdown-item" href="#">Location</a>
                   </li>
                   <li>
                     <hr class="dropdown-divider" />
@@ -130,30 +131,29 @@
       </div>
     </nav>
     <!----about--->
-    <div class="px-4 py-5 my-5 text-center">
-      <h1 class="display-5 text-white fw-bold">ABOUT</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="lead text-white mb-4">
-          Tucked into the curves of the beautiful coastline of Kiamba, Sarangani
-          is Tuka Marine Park, a marine sanctuary made of 4 protected coves.
-          Only one of the beaches (Tuka 3) is open to the public and the local
-          government ensures visitors are regulated so that the area retains its
-          pristine condition. Surrounded by thickly-forested cliffs, there are
-          no roads that lead to the inlet. Instead, a 20-minute boat ride amidst
-          a calm lull of waves will lead you to this peaceful paradise of white
-          sand, rich flora, and clear turquoise waters.
-        </p>
-        <div class="container">
-          <div class="row">
-            <div class="col me-3">
-              <a class="anchor-link" href="./history.html">
-                <div class="history">History</div></a
-              >
-            </div>
-            <div class="col">
-              <a class="anchor-link" href="./location.html"
-                ><div class="history">Location</div></a
-              >
+    <div class="conatiner">
+      <div class="px-4 py-5 my-5 text-center">
+        <h1 class="display-5 text-white fw-bold">LOCATION</h1>
+        <iframe
+          src="https://maps.google.com/maps?q=Kiamba, Sarangani Province, Philippines&amp;output=embed"
+          width="100%"
+          height="450"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen></iframe>
+        <div class="col-lg-6 mx-auto">
+          <div class="container">
+            <div class="row">
+              <div class="col me-3">
+                <a class="anchor-link" href="./about.html">
+                  <div class="history">About</div></a
+                >
+              </div>
+              <div class="col">
+                <a class="anchor-link" href="./history.html"
+                  ><div class="history">HISTORY</div></a
+                >
+              </div>
             </div>
           </div>
         </div>
@@ -162,7 +162,7 @@
     <!--footer-->
     <div class="container">
       <footer
-        style="position: fixed; bottom: 0; left: 0; right: 0; height: auto"
+        style="bottom: 0; left: 0; right: 0; height: auto"
         class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div class="col-md-4 d-flex align-items-center">
           <a
