@@ -1,0 +1,15 @@
+body {
+    height: 100vh;
+}
+#box {
+    height: 75%;
+    margin-top: 100px;
+    display: fle;
+}
+#contact {
+    border-radius: 20px;
+    backdrop-filter: blur(30px);
+    font-weight: bold;
+    text-shadow: 0 0 2px black;
+    padding: 20px;
+}
