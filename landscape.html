@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./about.css" />
+    <link rel="stylesheet" href="./mp1.css" />
+    <link rel="stylesheet" href="./contact.css" />
+    <link rel="stylesheet" href="./gallery.css" />
+    <title>LANDSCAPE</title>
+  </head>
+  <body>
+    <video autoplay loop muted src="./sea.mp4"></video>
+    <nav
+      id="navbar1"
+      class="navbar navbar-expand-lg navbar-dark text-white fixed-top"
+      aria-label="Offcanvas navbar large"
+    >
+      <div class="container-fluid">
+        <img id="treeicon" src="./island.png" alt="Tree-Icon" />
+        <a class="navbar-brand" href="./index.html">TUKA MARINE PARK</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar2"
+          aria-controls="offcanvasNavbar2"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end text-bg-dark"
+          tabindex="-1"
+          id="offcanvasNavbar2"
+          aria-labelledby="offcanvasNavbar2Label"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbar2Label"></h5>
+            TUKA
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="" id="nav2">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item dropdown">
+                <a
+                  id="about"
+                  style="color: aliceblue"
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  About
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./history.html">History</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./location.html">Location</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./about.html">About</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="./contact.html"
+                  style="color: aliceblue"
+                  >Contact</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  style="color: aliceblue"
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Gallery
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./landscape.html"
+                      >Landscape</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./cottages.html">Cottages</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./gallery.html">Gallery</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-----------Gallery------------>
+    <main>
+      <section class="py-5 text-center container">
+        <div class="row py-lg-1 mt-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-bold text-white">Landscape</h1>
+            <p class="lead text-white">
+              Below are some of the photos taken at TUKA MARINE PARK
+            </p>
+            <p>
+              <a href="./gallery.html" class="btn btn-primary my-2">Gallery</a>
+              <a href="./cottages.html" class="btn btn-secondary my-2"
+                >Cottages</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="album">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./landscape_images/l1.jpg"
+                  alt="coconutbeach"
+                  width="100%"
+                  height="225"
+                />
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./landscape_images/l2.jpg"
+                  alt="coconutbeach"
+                  width="100%"
+                  height="225"
+                />
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./landscape_images/l3.jpg"
+                  alt="coconutbeach"
+                  width="100%"
+                  height="225"
+                />
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./landscape_images/l4.jpg"
+                  alt="coconutbeach"
+                  width="100%"
+                  height="225"
+                />
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./landscape_images/l5.jpg"
+                  alt="coconutbeach"
+                  width="100%"
+                  height="225"
+                />
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./landscape_images/l6.jpg"
+                  alt="coconutbeach"
+                  width="100%"
+                  height="225"
+                />
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./landscape_images/l7.jpg"
+                  alt="coconutbeach"
+                  width="100%"
+                  height="225"
+                />
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./landscape_images/l8.jpg"
+                  alt="coconutbeach"
+                  width="100%"
+                  height="225"
+                />
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./landscape_images/l9.jpg"
+                  alt="coconutbeach"
+                  width="100%"
+                  height="225"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!----------footer------------->
+
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="./index.html"
+            class="mb-3 me-2 mb-md-0 text-white text-decoration-none lh-1"
+          >
+            <img src="./island.png" alt="" class="bi" width="30" height="24" />
+          </a>
+          <span class="mb-3 mb-md-0 text-white">© Jasper Senit 2023 TUKA</span>
+        </div>
+
+        <ul
+          class="nav col-md-4 justify-content-end list-unstyled d-flex text-white"
+        >
+          <li><i class="bi bi-facebook pe-3" style="font-size: 30px"></i></li>
+          <li><i class="bi bi-twitter-x pe-3" style="font-size: 30px"></i></li>
+          <li><i class="bi bi-instagram" style="font-size: 30px"></i></li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
